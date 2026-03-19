@@ -17,3 +17,15 @@ cd github-activity
 ```
 mvn spring-boot:run -Dspring-boot.run.arguments=<username>
 ```
+
+or build and run with .jar file
+
+``` 
+mvn clean package 
+```
+
+Output: `target/github-activity-0.0.1-SNAPSHOT.jar`
+
+```
+java -jar target/github-activity-0.0.1-SNAPSHOT.jar <username>
+```
